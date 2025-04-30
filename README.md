@@ -21,6 +21,8 @@ Python 3.8+
 Docker (optional)
 NVIDIA GPU (recommended for DeepSeek)
 Poetry for dependency management
+
+
 Local Installation
 Clone the repository:
 git clone <repo-url>
