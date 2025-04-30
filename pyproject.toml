@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "ai-test"
+version = "1.0"
+description = "'An application for demonstrating your skills in AI'"
+authors = ["Rockstar"]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.9.7 || >3.9.7,<4.0" 
+openfabric-pysdk = "^0.3.0"
+transformers = "^4.30.0"
+torch = "^2.0.0"
+streamlit = "^1.20.0"
+requests = "^2.28.0"
+sqlalchemy = "^2.0.0"
+faiss-cpu = "^1.7.4"
+sentence-transformers = "^2.2.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[[tool.poetry.source]]
+name = "node2"
+url = "https://repo.node2.openfabric.network/index"
+priority = "supplemental"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
